@@ -3,7 +3,7 @@
 
 #buttonBody{
 	
-	background-image:url(file:///F|/web%20dev/web%20dev%204/Dom%20builder%20project/button%20builder%20body.png);
+	background-image: url(../button_builder_body.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 	width: 592px;
@@ -15,13 +15,54 @@
 	height: 100px;
 	background: red;
 	position:relative;
-	top:90px;
-	left:200px;
+	top:500px;
+	left:10px;
 }
 
+#Header Move{
+	position:relative;
+	top:500px;
+	left:10px;
+}
+#panel, #flip {
+    padding: 20px;
+    text-align: center;
+    background-color: #DBFF11;
+    border: solid 50px #050000;
+}
+
+#panel {
+    padding: 80px;
+    display: inline;
+}
 
 #tableBuilder{
 font:italic;
 	position:relative;
 	top:300px;
 	right:auto;}
+
+
+/*#green{
+	float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+		
+}
+
+/*#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  
+#slider{
+	position:relative;
+	z-index:20;
+}/*
