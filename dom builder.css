@@ -1,13 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	100%
+}
 
-#buttonBody{
-	
-	background-image: url(../button_builder_body.png);
+#container{
+	width: 100%;
+	background-image:url(../button_builder_body.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 	width: 592px;
 	height: 620px;
+}
+
+#buttonBody{
+	
+	
+	
 
 }
 #square {
@@ -21,18 +30,18 @@
 
 #Header Move{
 	position:relative;
-	top:500px;
+	top:50px;
 	left:10px;
 }
 #panel, #flip {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     background-color: #DBFF11;
-    border: solid 50px #050000;
+    border: solid 10px #050000;
 }
 
 #panel {
-    padding: 80px;
+    padding: 30px;
     display: inline;
 }
 
