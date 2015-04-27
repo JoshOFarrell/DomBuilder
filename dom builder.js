@@ -5,8 +5,12 @@
     var cell1 = row.insertCell(0);
 });*/
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
-});
+});*/
+
+$(function() {
+    $( "#square" ).draggable();
+  });
