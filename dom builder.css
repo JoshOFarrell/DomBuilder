@@ -13,12 +13,20 @@ body{
 	height: 620px;
 }
 
-#buttonBody{
+#buttonControl{
 	
-	
+	font:italic;
+	position:relative;
+	top:200px;
+	left:50px;
+}
+
+  
+
+	ul{ list-style-type: none; margin: 0; padding: 0; margin-bottom: 60px; left:145px; top:100px; position:relative; }
+  li { padding: 5px; width: 150px; left:145px ; top:100px; position:relative; }
 	
 
-}
 #square {
 	width: 100px;
 	height: 100px;
@@ -38,11 +46,12 @@ body{
     padding: 15px;
     text-align: center;
     background-color: #DBFF11;
-    border: solid 10px #050000;
+    border: solid 5px #050000;
+	
 }
 
 #panel {
-    padding: 30px;
+    padding: 10px;
     display: inline;
 }
 
