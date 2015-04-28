@@ -5,15 +5,21 @@
     var cell1 = row.insertCell(0);
 });*/
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
-});
+});*/
+
+
+
 
 $(function() {
     $( "#square" ).draggable();
   });
+  
+  
+  
   
   $(function() {
     $( "#sortable" ).sortable({
@@ -26,3 +32,10 @@ $(function() {
     });
     $( "ul, li" ).disableSelection();
   });
+  
+  
+  $(document).ready(function(){
+    $("buttonColour").click(function(){
+        $("square").toggleClass("blue");
+    });
+});
