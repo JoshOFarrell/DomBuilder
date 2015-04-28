@@ -62,3 +62,11 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['test', 'uglify']);
 
 };
+
+$(".basic").spectrum();
+$(".override").spectrum({
+    color: "yellow"
+});
+(".startEmpty").spectrum({
+    allowEmpty: true
+});
