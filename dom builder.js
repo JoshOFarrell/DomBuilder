@@ -15,7 +15,12 @@ $(function() {
     $( "#square" ).draggable();
   });
   
-  
+  $(document).ready(function(){
+    $("#buttonColour").click(function(){
+        $("#square").toggleClass("blue");
+    });
+});
+
   $(function() {
     $( "#sortable" ).sortable({
       revert: true

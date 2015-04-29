@@ -48,11 +48,11 @@ body{
 
 
 
-/*.blue {
+.blue {
     color: blue;
 }
 
-#Header Move{
+/*#Header Move{
 	position:relative;
 	top:50px;
 	left:10px;
