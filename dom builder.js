@@ -86,7 +86,7 @@ $(function() {
   });
   
  
- $( "p" ).click(function() {
+ $( "#buttonType" ).click(function() {
   var htmlString = $( this ).html();
   $( this ).text( htmlString );
 });
