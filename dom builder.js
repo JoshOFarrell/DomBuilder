@@ -14,7 +14,6 @@ $(document).ready(function(){
 
 
 
-
 $(function() {
     $( "#square" ).draggable();
   });
@@ -30,10 +29,10 @@ $(function() {
       max: 100,
       value: 60,
       slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
+        /*$( "#amount" ).val( ui.value );*/$("#square").css('width', ui.value + "%");
       }
     });
-    $( "#amount" ).val( $( "#slider-vertical" ).slider( "value" ) );
+    /*$( "#amount" ).val( $( "#slider-vertical" ).slider( "value" ) );*/
   });
   
   
