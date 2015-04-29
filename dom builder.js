@@ -10,7 +10,7 @@ $(document).ready(function(){
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
-});
+
 
 
 
@@ -39,11 +39,11 @@ $(function() {
   
   
   
-  $(document).ready(function(){
+  
     $("#buttonColour").click(function(){
         $("#square").toggleClass("blue");
     });
-});
+
 
 
 
@@ -85,8 +85,9 @@ $(function() {
     $( "ul, li" ).disableSelection();
   });
   
- 
- $( "#buttonType" ).click(function() {
+  
+ $( "p" ).click(function() {
   var htmlString = $( this ).html();
-  $( this ).text( htmlString );
+  $(this).text( htmlString );
 });
+ });
