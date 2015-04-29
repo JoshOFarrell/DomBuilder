@@ -63,10 +63,10 @@ module.exports = function(grunt) {
 
 };
 
-$(".basic").spectrum();
+/*$(".basic").spectrum();
 $(".override").spectrum({
     color: "yellow"
 });
 (".startEmpty").spectrum({
     allowEmpty: true
-});
+});*/
